@@ -1,0 +1,83 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ff5722;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffe0b2;
+}
+
+section {
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#home {
+    background: linear-gradient(to right, #ff9800, #ff5722);
+}
+
+#about-coffee {
+    background: linear-gradient(to right, #4caf50, #8bc34a);
+}
+
+#about-us {
+    background: linear-gradient(to right, #2196f3, #03a9f4);
+}
+
+section h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+section p {
+    max-width: 600px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #fff;
+}
+
+#navbar.scrolled {
+    background-color: #e64a19;
+}
